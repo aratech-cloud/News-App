@@ -102,26 +102,16 @@
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-       // Ambil data dari form
-       $username = htmlspecialchars($_POST['username']);
-       $email = htmlspecialchars($_POST['email']);
-       $message = htmlspecialchars($_POST['message']);
+    // Ambil data dari form
+    $username = htmlspecialchars($_POST['username']);
+    $email = htmlspecialchars($_POST['email']);
+    $message = htmlspecialchars($_POST['message']);
 
-       // Validasi data jika diperlukan
-       if (!empty($username) && !empty($email) && !empty($message)) {
-              // Kirim email
-              $to = "youremail@example.com"; // ganti dengan email tujuan
-              $subject = "Contact Form Submission from $username";
-              $body = "Name: $username\nEmail: $email\n\nMessage:\n$message";
-              $headers = "From: $email";
-
-              if (mail($to, $subject, $body, $headers)) {
-                     echo "<script>alert('Email berhasil dikirim!');</script>";
-              } else {
-                     echo "<script>alert('Gagal mengirim email.');</script>";
-              }
-       } else {
-              echo "<script>alert('Harap isi semua field.');</script>";
-       }
+    // Validasi data
+    if (!empty($username) && !empty($email) && !empty($message)) {
+        echo "<script>alert('Email berhasil dikirim!');</script>";
+    } else {
+        echo "<script>alert('Harap isi semua field.');</script>";
+    }
 }
 ?>
