@@ -90,7 +90,7 @@
                             </form>
                      </div>
                      <div class="col">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.730610781611!2d107.5354939!3d-6.8687043!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e68e46d527c3%3A0x80c53eeb41601c6e!2sCODEPOLITAN!5e0!3m2!1sen!2sid!4v1723625488824!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d350.595636520817!2d106.82259297607628!3d-6.192668677169187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f421229aaa1b%3A0x99d6f8a7abb690e2!2sGedung%20Perkantoran%20The%20Plaza!5e0!3m2!1sid!2sid!4v1723021135263!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                      </div>
               </div>
        </section>
